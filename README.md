@@ -19,7 +19,7 @@ documentadas com topologia, comandos, testes e problemas que enfrentei.
 
 | # | Laboratório | Assunto | Status |
 |---|-------------|---------|--------|
-| 01 | [Endereçamento IP e dns](./01-enderecamento-ip-e-dns) | IPv4, máscara, DNS e DHCP | ✅ Concluído |
+| 01 | [Endereçamento IP e DNS](./01-enderecamento-ip-e-dns) | IPv4, máscara, DNS e DHCP | ✅ Concluído |
 
 
 ## 🎯 Habilidades praticadas
