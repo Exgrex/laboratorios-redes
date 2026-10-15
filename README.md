@@ -19,7 +19,7 @@ documentadas com topologia, comandos, testes e problemas que enfrentei.
 
 | # | Laboratório | Assunto | Status |
 |---|-------------|---------|--------|
-| 01 | [Endereçamento IP e sub-redes](./01-enderecamento-ip-e-sub-redes) | IPv4, máscara, CIDR | ✅ Concluído |
+| 01 | [Endereçamento IP e sub-redes](./01-enderecamento-ip-e-dns) | IPv4, máscara, CIDR | ✅ Concluído |
 
 
 ## 🎯 Habilidades praticadas
