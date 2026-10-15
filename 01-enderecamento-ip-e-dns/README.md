@@ -2,4 +2,4 @@ Esta é minha primeira anotação referente ao curso de redes em prática do cur
 
 Nesta aula 3 fiz a mudança do roteador que estou utilizando (HUAWEI WiFi AX3S) do endereço ip e da rede local, também fiz a mudança do dns da rede para ter uma melhor conexão entre as páginas do navegador, utilizando o dns da google e do cloudflare.
 
-Fiz também a mudança da LAN para que não tenha interferência do gateway padrão do modem(dispositivo da qual fornece o serviço de internet) para que você consiga acessar ambos os dispositivos.
+Fiz também a mudança da LAN e do IP para que não tenha interferência do gateway padrão do modem(dispositivo da qual fornece o serviço de internet) para que você consiga acessar ambos os dispositivos, caso tenha algum problema, o roteador não será identificado como dispositivo principal, para que você consiga acessar o dispositivo central.
