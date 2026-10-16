@@ -14,6 +14,7 @@ documentadas com topologia, comandos, testes e problemas que enfrentei.
 - Wireshark
 - VirtualBox
 - Prompt de comando / terminal (ping, ipconfig, tracert, nslookup)
+- Roteador Utilizado(Huawei WiFi AX3S)
 
 ## 📚 Laboratórios
 
