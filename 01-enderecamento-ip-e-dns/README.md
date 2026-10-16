@@ -8,7 +8,7 @@ conflito com a rede do modem, e configurar servidores DNS públicos.
 
 ### O que foi feito
 1. **Alteração do IP e da rede local (LAN):** o IP do roteador foi
-   alterado de IP dinâmico para IP estático(para teste), com máscara `255.255.255.0`.
+   alterado de PPoe para IP estático(para teste), com máscara `255.255.255.0`.
    Assim, o roteador e o modem ficam em redes diferentes, e é possível
    acessar a página de configuração dos dois equipamentos. Se houver
    problema no roteador, ainda consigo acessar o modem diretamente.
