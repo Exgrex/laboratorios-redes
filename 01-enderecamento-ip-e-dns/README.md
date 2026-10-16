@@ -1,5 +1,27 @@
-Esta é minha primeira anotação referente ao curso de redes em prática do curso em vídeo. A anotação é referente a prática de endereçamento ip e sub redes.
+## Laboratório 01: Endereçamento IP e sub-redes
 
-Nesta aula 3 fiz a mudança do roteador que estou utilizando (HUAWEI WiFi AX3S) do endereço ip e da rede local, também fiz a mudança do dns da rede para ter uma melhor conexão entre as páginas do navegador, utilizando o dns da google e do cloudflare.
+**Equipamento:** Roteador Huawei WiFi AX3S
 
-Fiz também a mudança da LAN e do IP para que não tenha interferência do gateway padrão do modem(dispositivo da qual fornece o serviço de internet) para que você consiga acessar ambos os dispositivos, caso tenha algum problema, o roteador não será identificado como dispositivo principal, para que você consiga acessar o dispositivo central.
+### Objetivo
+Alterar o endereço IP e a faixa da rede local do roteador para evitar
+conflito com a rede do modem, e configurar servidores DNS públicos.
+
+### O que foi feito
+1. **Alteração do IP e da rede local (LAN):** o IP do roteador foi
+   alterado de IP dinâmico para IP estático(para teste), com máscara `255.255.255.0`.
+   Assim, o roteador e o modem ficam em redes diferentes, e é possível
+   acessar a página de configuração dos dois equipamentos. Se houver
+   problema no roteador, ainda consigo acessar o modem diretamente.
+2. **Configuração de DNS:** foram definidos os DNS do Google
+   (8.8.8.8 e 8.8.4.4) e da Cloudflare (1.1.1.1 e 1.0.0.1), buscando
+   maior velocidade e estabilidade na resolução de nomes.
+
+### Testes realizados
+- `ipconfig` para confirmar IP, gateway e DNS recebidos
+- `ping` para o gateway e para 8.8.8.8
+- `nslookup google.com` para validar o DNS
+- Acesso às páginas de administração do modem e do roteador
+
+### Aprendizados
+- Dois equipamentos na mesma faixa de IP geram conflito.
+- O DNS traduz nomes em IPs e pode ser trocado na rede toda pelo roteador.
