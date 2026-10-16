@@ -1,4 +1,4 @@
-## Laboratório 01: Endereçamento IP e sub-redes
+## Laboratório 01: Endereçamento IP 
 
 **Equipamento:** Roteador Huawei WiFi AX3S
 
