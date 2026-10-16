@@ -13,7 +13,7 @@ conflito com a rede do modem, e configurar servidores DNS públicos.
    acessar a página de configuração dos dois equipamentos. Se houver
    problema no roteador, ainda consigo acessar o modem diretamente.
 2. **Configuração de DNS:** foram definidos os DNS do Google
-   (8.8.8.8 e 8.8.4.4) e da Cloudflare (1.1.1.1 e 1.0.0.1), buscando
+   (8.8.8.8) e da Cloudflare (1.1.1.1), buscando
    maior velocidade e estabilidade na resolução de nomes.
 
 ### Testes realizados
